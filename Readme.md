@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Лилия Зюбина](https://up.htmlacademy.ru/adaptive/19/user/585417).
-* Наставник: [Андрей Корейкин] (https://htmlacademy.ru/profile/ankormoreankor).
+* Наставник: [Андрей Корейкин](https://htmlacademy.ru/profile/ankormoreankor).
 
 ---
 
