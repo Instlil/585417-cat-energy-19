@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
+    <title>HTML Academy: Кэт энерджи - Каталог</title>
   </head>
   <body>
     <header class='page-header'>
@@ -12,14 +12,14 @@
       <nav class='main-nav'>
         <button class='main-nav__toggle' type='button'> Открыть меню </button>
           <ul class='main-nav__list'>
-            <li class='main-nav__item main-nav__item--active'>
-              <a>Главная</a>
-            </li>
             <li class='main-nav__item'>
+              <a href='index.html'>Главная</a>
+            </li>
+            <li class='main-nav__item main-nav__item--active'>
               <a href=''>Каталог продукции</a>
             </li>
             <li class='main-nav__item'>
-              <a href=''>Подбор программы</a>
+              <a href='form.html'>Подбор программы</a>
             </li>
           </ul>
       </nav>
@@ -30,173 +30,189 @@
           <h2 class='catalog__title'>Каталог продукции</h2>
           <ul class='catalog__list'>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--chicken' src='https://via.placeholder.com' alt='Кэт энерджи с курицей' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy PRO 500 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>500 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Курица</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>700 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>500 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Курица</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>700 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href=''>Заказать</a>
             </li>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--chicken' src='https://via.placeholder.com' alt='Кэт энерджи с курицей' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy  PRO 1000 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>1000 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Курица</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>1000 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>1000 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Курица</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>1000 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href='' >Заказать</a>
             </li>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--fish' src='https://via.placeholder.com' alt='Кэт энерджи с рыбой' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy PRO 500 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>500 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Рыба</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>700 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>500 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Рыба</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>700 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href=''>Заказать</a>
             </li>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--fish' src='https://via.placeholder.com' alt='Кэт энерджи с рыбой' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy PRO 1000 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>1000 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Рыба</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>1000 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>1000 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Рыба</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>1000 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href=''>Заказать</a>
             </li>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--buckwheat' src='https://via.placeholder.com' alt='Кэт энерджи с гречкой' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy Slim 500 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>500 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Гречка</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>400 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>500 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Гречка</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>400 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href=''>Заказать</a>
             </li>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--buckwheat' src='https://via.placeholder.com' alt='Кэт энерджи с гречкой' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy Slim 1000 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>1000 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Гречка</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>700 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>1000 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Гречка</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>700 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href=''>Заказать</a>
             </li>
             <li class='catalog__item'>
-              <a class='catalog__link' href=''>
+              <a class='catalog__link-logo' href=''>
                 <img class='catalog__image catalog__image--rice' src='https://via.placeholder.com' alt='Кэт энерджи с рисом' width='140' height='144'>
+              </a>
+              <a class='catalog__link' href=''>
                 <h3 class='catalog__name'>Cat Energy Slim 500 г</h3>
               </a>
-              <table class='catalog__table'>
-                <tr>
-                  <td class='catalog__value'>Объем</td>
-                  <td class='catalog__field'>500 г</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Вкус</td>
-                  <td class='catalog__field'>Рис</td>
-                </tr>
-                <tr>
-                  <td class='catalog__value'>Цена</td>
-                  <td class='catalog__field'>500 Р.</td>
-                </tr>
-              </table>
-              <a class='catalog__order button'></a>
+              <dl class='catalog__characteristics'>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Объем</dt>
+                  <dd class='catalog__field'>500 г</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Вкус</dt>
+                  <dd class='catalog__field'>Рис</dd>
+                </div>
+                <div class='catalog__characteristics-wrapper'>
+                  <dt class='catalog__value'>Цена</dt>
+                  <dd class='catalog__field'>500 Р.</dd>
+                </div>
+              </dl>
+              <a class='catalog__order button' href=''>Заказать</a>
             </li>
           </ul>
-          <p class='catalog__suggestion'>Показать еще 100500 товаров</p>
-          <p class='catalog__statement'>На самом деле вкусов гораздо больше!</p>
-          <a class='catalog__show-all button' href=''>Показать все</a>
+          <div class='catalog__show'>
+            <p class='catalog__suggestion'>Показать еще 100500 товаров</p>
+            <p class='catalog__statement'>На самом деле вкусов гораздо больше!</p>
+            <a class='catalog__show-all button' href=''>Показать все</a>
+          </div>
       </section>
     </main>
     <footer class='page-footer'>
+      <a class='page-footer__logo' href='index.html'>
         <img class='page-footer__logo-image' src='https://via.placeholder.com/150x150' alt='Кэт энерджи' width='128' height='24'>
-        <div class='page-footer__social social'>
-          <ul class='social__list'>
-            <li class='social__item'>
-              <a class='social__link social__link--vk' href='https://vk.com/htmlacademy'>Мы в Вконтакте</a>
+      </a>
+          <ul class='page-footer__social'>
+            <li class='page-footer__item'>
+              <a class='page-footer__link page-footer__link--vk' href='https://vk.com/htmlacademy'>Мы в Вконтакте</a>
             </li>
-            <li class='social__item'>
-              <a class='social__link social__link--instagram' href='https://www.instagram.com/htmlacademy'>Мы в Инстаграме</a>
+            <li class='page-footer__item'>
+              <a class='page-footer__link page-footer__link--instagram' href='https://www.instagram.com/htmlacademy'>Мы в Инстаграме</a>
             </li>
-            <li class='social__item'>
-              <a class='social__link social__link--facebook' href='https://www.facebook.com/htmlacademy'>Мы в Фейсбуке</a>
+            <li class='page-footer__item'>
+              <a class='page-footer__link page-footer__link--facebook' href='https://www.facebook.com/htmlacademy'>Мы в Фейсбуке</a>
             </li>
           </ul>
-        </div>
         <div class='page-footer__copyright copyright'>
           <a class='copyright__link' href='https://htmlacademy.ru/intensive/adaptive'>HTML Academy
             <img class='copyright__logo' src='https://via.placeholder.com/150x150' alt='HTML academy' width='27' height='34'>
